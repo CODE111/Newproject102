@@ -17,9 +17,6 @@
     border: none;
     text-align: right;
     text-decoration: none;
-    margin: 0px;
-    position: absolute;
-    top: 50%;
 
 
 
@@ -36,6 +33,9 @@
     padding-right: 5px;
     font-size: 35px;
 
+    margin: 0px;
+    position: absolute;
+    top: 50%;
 
 }
 
