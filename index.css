@@ -1,42 +1,59 @@
-* {
-    margin: 0px;
-    background-color: white;
 
-}
 
 .body {
     background-image: url(https://i.postimg.cc/QtCv335r/background-img.jpg);
     background-repeat: no-repeat;
 }
 
+
 .nav-bar {
-    background-color: black;
-    color: black;
-    height: 75px;
-    width: auto;
-    border: none;
-    text-align: right;
-    text-decoration: none;
-
-
-
+    background-color: #000000;
+    overflow: hidden;
 }
 
-.nav-container a {
-    color: white;
+.nav-bar a {
+    float: left;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-bar a:hover {
+    background-color: #DDDDDD;
+    color: #000000;
+}
+
+.nav-bar a.active {
+    background-color: #52574e;
+    color: #FFFFFF;
+}
+
+.nav-bar button {
+    float: right;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14;
+}
+
+.nav-container {
+    align-items: center;
+}
+
+.nav-container li a {
+    color: rgb(255, 255, 255);
+
     width: 50%;
     text-decoration: none;
-    margin: auto;
+    background-color: black;
     padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 2px;
     padding-right: 5px;
     font-size: 35px;
-
-    margin: 0px;
-    position: absolute;
-    top: 50%;
-
 }
 
 .nav-container a:hover {
